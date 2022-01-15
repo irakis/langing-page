@@ -1,6 +1,11 @@
-{
-	.container .header .row {
-		background-image: url("./images/background-Image.png");
+.container .header .row {
+		background-image: url("/images/background-Image.png");
 	}
-	
+body {
+	background-color: #e67e22;
+}
+
+.card img {
+	max-width: 100px;
+	object-fit: cover;
 }

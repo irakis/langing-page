@@ -1,17 +1,15 @@
-/* Error: expected "}".
- *   ,
- * 1 | {
- *   | ^
- *   '
- *   sass\style.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a   \2577 \a 1 \2502  {\d\a   \2502  ^\a   \2575 \a   sass\\style.scss 1:1  root stylesheet';
+.container .header .row {
+  background-image: url("/images/background-Image.png");
 }
+
+body {
+  background-color: #e67e22;
+}
+
+.card img {
+  max-width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFEQUFBO0FDQ0Y7O0FEQ0E7RUFDQyx5QkFBQTtBQ0VEOztBRENBO0VBQ0MsZ0JBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDRUQiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
