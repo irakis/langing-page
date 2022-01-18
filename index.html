@@ -8,12 +8,13 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <title>Project landing-page</title>
-        <link rel="bootstrap" href="bootstrap-grid.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="bootstrap" href="./vendor/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
     <body>
         <header>
             <div class="container header">
+              <img src="./images/background-image.png" alt="background-image">
                 <div class="navbar">
                     <img class="navbar-brand" src="./images/logo.png" alt="logo">
                     <ul class="nav justify-content-end">
@@ -43,11 +44,11 @@
         </header>
         <section>
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <h4>SERVICES</h4>
                     <h5>Proin jakulis purus consequant sem cure</h5>
                 </div>
-                <div class="row">
+                <div class="row col-12">
                     <div class="col-4">
                         <a href="#"><i class="fas fa-shopping-basket" alt="basket"></i>E-comerce</a>
                         <h6>E-Comerce</h6>
@@ -74,21 +75,27 @@
                 </div>
                 <div class="row">
                     <div class="card">
-                        <img src="./images/ebony.png" class="card-img-top" alt="ebony">
+                        <div class="card-img">
+                            <img src="./images/ebony.png"  alt="ebony">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./images/smart.png" class="card-img-top" alt="smart">
+                        <div class="card-img">
+                            <img src="./images/smart.png" class="card-img-top" alt="smart">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./images/clever.png" class="card-img-top" alt="clever">
+                        <div class="card-img">
+                            <img src="./images/clever.png" class="card-img-top" alt="clever">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,21 +104,27 @@
                 </div>
                 <div class="row">
                     <div class="card">
-                        <img src="./images/vinyl.png" class="card-img-top" alt="vinyl">
+                        <div class="card-img">
+                            <img src="./images/vinyl.png" class="card-img-top" alt="vinyl">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./images/treehouse.png" class="card-img-top" alt="treehouse">
+                        <div class="card-img">
+                            <img src="./images/treehouse.png" class="card-img-top" alt="treehouse">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./images/burned.png" class="card-img-top" alt="burned">
+                        <div class="card-img">
+                            <img src="./images/burned.png" class="card-img-top" alt="burned">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +139,7 @@
                     <div class=" col-6 col-md-4 col-lg-6">
                         <p> &amp;reg Copyright 2020 FreebiesXpress.com</p>
                     </div>
-                    <div class="col-6 col-md-6 text-right">
+                    <div class="col-6 col-md-8 text-right inline">
                         <ul>
                             <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
                             <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>

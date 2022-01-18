@@ -6,10 +6,31 @@ body {
   background-color: #e67e22;
 }
 
-.card img {
-  max-width: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.card {
+  width: 33.3333%;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFEQUFBO0FDQ0Y7O0FEQ0E7RUFDQyx5QkFBQTtBQ0VEOztBRENBO0VBQ0MsZ0JBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDRUQiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+.card-img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.5rem;
+}
+
+footer ul li {
+  display: inline;
+  list-style-type: none;
+  font-size: 0;
+  right: 0;
+}
+
+footer ul li i {
+  width: 30px;
+  haight: 30px;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFEQUFBO0FDQ0Y7O0FEQ0E7RUFDQyx5QkFBQTtBQ0VEOztBREFBO0VBQ0MsZUFBQTtBQ0dEOztBREFBO0VBQ0MsZUFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxlQUFBO0FDR0Q7O0FEQUE7RUFDQyxlQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0VBQ0EsUUFBQTtBQ0dEOztBREFBO0VBQ0MsV0FBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSx1QkFBQTtBQ0dEIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

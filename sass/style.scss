@@ -4,8 +4,28 @@
 body {
 	background-color: #e67e22;
 }
+.card {
+	width: 33.3333%
+}
 
-.card img {
-	max-width: 100px;
+.card-img {
+	max-width: 100%;
 	object-fit: cover;
+	padding: 0.5rem;
+}
+
+footer ul li{
+	display: inline;
+	list-style-type:none;
+	font-size:0;
+	right: 0;
+}
+
+footer ul li i{
+	width:30px;
+	haight:30px;
+	font-size: 1.5rem;
+	padding: 0 0.5rem;
+	border-radius: 50%;
+	background-color: white;
 }
