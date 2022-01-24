@@ -11,7 +11,6 @@ body{
 .section-title{
 	font-family: $font-header;
 	font-size: 40px;
-	font-style: bold;
 }
 .section-sublitle{
 	font-family: $font-header;
@@ -30,6 +29,35 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Montserrat';
+}
+
+header .container .navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+header .container .navbar .inner{
+	width: 100%;
+	text-align: center;
+	text-justify: center;
+}
+
+header .container .navbar .inner img{
+	text-align: center;
+	text-justify: center;
+	
+}
+
+header .container .navbar .nav{
+	list-style-type: none;
+	width: 100%;
+	display:flex;
+	justify-content: end;
+}
+header .container .navbar .nav-item{
+	float: right;
+	padding-right: 20px;
+	
 }
 header .container h3{
 	font-size: 40px;
@@ -54,7 +82,11 @@ header .container .row h2{
 header .container .row button{
 	width: 243px;
 	height: 63px;
-	color: white;
+	background-color: #FEE89A;
+	border-radius: 5%;
+	color:white;
+	font-weight: 400;
+
 }
 
 /*Cards*/
@@ -92,6 +124,7 @@ header .container .row button{
 .services .container .row{
 	text-align: center;
 	padding: 6% 0;
+	display: inline;
 }
 
 .services .col-4 i{
@@ -110,11 +143,18 @@ header .container .row button{
 	font-size: 0;
 	color:#FEE89A;
 }
+.col-4{
+	width: 33.3333%;
+	display: inline-block;
+}
 
 /*Cards*/
 
 .cards .container .row h4,p{
 	text-align: center;
+}
+.col-4{
+	width: 33.3333%;
 }
 
 .cards .container .row{
@@ -124,7 +164,12 @@ header .container .row button{
 .cards {
 	background-color: #F7F7F7;
 }
-
+.cards .container .row .card sm-1 .card-img img{
+	object-fit: cover;
+}
+.title{
+	display: block;
+}
 /*Footer*/
 
 footer ul li{
@@ -137,7 +182,7 @@ footer ul li i{
 	width:40px;
 	height:40px;
 	font-size: 1.5rem;
-	border-radius: 50%;
+		border-radius: 50%;
 	background-color: white;
 	text-align: center;
 	padding: 25% 0;
@@ -146,3 +191,15 @@ footer ul li i{
 footer{
 	background-color: #FFFFFF;
 }
+footer p{
+	padding: 5%;
+}
+
+/*Media*/
+
+@media (max-width: 767px) and (max-width: 991px) {
+        cards .container .row .card{
+            flex-direction: column;
+			max-width: 100%;
+        }
+	}
