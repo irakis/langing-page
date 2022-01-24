@@ -39,13 +39,11 @@ header .container .navbar{
 header .container .navbar .inner{
 	width: 100%;
 	text-align: center;
-	text-justify: center;
+	margin: auto;
 }
 
 header .container .navbar .inner img{
 	text-align: center;
-	text-justify: center;
-	
 }
 
 header .container .navbar .nav{
@@ -198,8 +196,9 @@ footer p{
 /*Media*/
 
 @media (max-width: 767px) and (max-width: 991px) {
-        cards .container .row .card{
-            flex-direction: column;
-			max-width: 100%;
-        }
+	cards .container .row .card sm-1{
+		display:block;
+		flex-direction: column;
+		max-width: 100%;
 	}
+}
