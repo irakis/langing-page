@@ -11,6 +11,7 @@ body{
 .section-title{
 	font-family: $font-header;
 	font-size: 40px;
+	margin: 14px 0;
 }
 .section-sublitle{
 	font-family: $font-header;
@@ -29,6 +30,10 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Montserrat';
+	margin: -15px -15px 0 -15px;
+}
+.navbar .nav .nav-item .nav-link{
+	text-decoration: none;
 }
 
 header .container .navbar{
@@ -38,12 +43,8 @@ header .container .navbar{
 
 header .container .navbar .inner{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	margin: auto;
-}
-
-header .container .navbar .inner img{
-	text-align: center;
 }
 
 header .container .navbar .nav{
@@ -60,30 +61,35 @@ header .container .navbar .nav-item{
 header .container h3{
 	font-size: 40px;
 	font-style: italic;
+	margin: 20px 0;
 }
 header .container h2{
 	font-size: 80px;
+	margin: 20px 0;
 }
 header .row {
 	text-align: center;
 	color: white;
 }
 header .container .row{
-	padding: 10% 0;
+	padding: 158px 0;
 	justify-content: center;
 }
-
+/*
 header .container .row h2{
 	padding: 10% 0;
-}
+}*/
 
-header .container .row button{
+header .container .row .btn{
 	width: 243px;
 	height: 63px;
 	background-color: #FEE89A;
 	border-radius: 5%;
 	color:white;
 	font-weight: 400;
+	padding: 20px 0;
+	text-decoration: none;
+	font-size: 22px;
 
 }
 
@@ -102,12 +108,14 @@ header .container .row button{
 	margin-top: 3%;
 	justify-content: center;
 	text-align: center;
+	background-color: white;
 }
 
-.card-img {
+.cards .container .row .card .card-img {
 	max-width: 100%;
 	object-fit: cover;
 }
+	
 .cards .container{
 	padding: 5rem;
 }
@@ -121,7 +129,7 @@ header .container .row button{
 
 .services .container .row{
 	text-align: center;
-	padding: 6% 0;
+	//padding: 6% 0;
 	display: inline;
 }
 
