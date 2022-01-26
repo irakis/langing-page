@@ -8,30 +8,33 @@ $font-header: 'Montserrat', sans-serif;
 body{
 	color:black;
 }
-.section-title{
+	
+.section-title {
 	font-family: $font-header;
 	font-size: 40px;
 	margin: 14px 0;
 }
-.section-sublitle{
+
+.section-sublitle {
 	font-family: $font-header;
 	font-size: 18px;
 	font-style: bold;
 }
-body p{
+
+body p {
 	font-family: $font-text;
 	font-size: 14px;
 }
 
 /*Header*/
+
 header {
 	background-image: url("../images/Background_Image.png");
-	object-fit: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Montserrat';
-	margin: -15px -15px 0 -15px;
 }
+
 .navbar .nav .nav-item .nav-link{
 	text-decoration: none;
 }
@@ -44,7 +47,7 @@ header .container .navbar{
 header .container .navbar .inner{
 	width: 100%;
 	text-align: left;
-	margin: auto;
+	margin: 16px 0;
 }
 
 header .container .navbar .nav{
@@ -56,29 +59,28 @@ header .container .navbar .nav{
 header .container .navbar .nav-item{
 	float: right;
 	padding-right: 20px;
-	
 }
+
 header .container h3{
 	font-size: 40px;
 	font-style: italic;
 	margin: 20px 0;
 }
+
 header .container h2{
 	font-size: 80px;
 	margin: 20px 0;
 }
+
 header .row {
 	text-align: center;
 	color: white;
 }
+
 header .container .row{
 	padding: 158px 0;
 	justify-content: center;
 }
-/*
-header .container .row h2{
-	padding: 10% 0;
-}*/
 
 header .container .row .btn{
 	width: 243px;
@@ -90,7 +92,6 @@ header .container .row .btn{
 	padding: 20px 0;
 	text-decoration: none;
 	font-size: 22px;
-
 }
 
 /*Cards*/
@@ -98,11 +99,13 @@ header .container .row .btn{
 .cards{
 	padding: 3% 0;
 }
+
 .cards h5{
 	font-family: $font-header;
 	font-size: 18px;
 	font-style: bold;
 }
+
 .card {
 	width: 30%;
 	margin-top: 3%;
@@ -129,7 +132,6 @@ header .container .row .btn{
 
 .services .container .row{
 	text-align: center;
-	//padding: 6% 0;
 	display: inline;
 }
 
@@ -137,18 +139,19 @@ header .container .row .btn{
 	width:50px;
 	height:50px;
 	font-size: 1.5rem;
-	text-align: center;
 	border-radius: 50%;
 	background-color: white;
-	padding: 10px;
 	border: solid;
 	border-color:#FEE89A ;
+	line-height: 40px;
+	color:#FEE89A
 }
 
-.services .col-4 a{
+/*.services .col-4 a{
 	font-size: 0;
 	color:#FEE89A;
-}
+}*/
+
 .col-4{
 	width: 33.3333%;
 	display: inline-block;
@@ -159,6 +162,7 @@ header .container .row .btn{
 .cards .container .row h4,p{
 	text-align: center;
 }
+
 .col-4{
 	width: 33.3333%;
 }
@@ -170,12 +174,15 @@ header .container .row .btn{
 .cards {
 	background-color: #F7F7F7;
 }
+
 .cards .container .row .card sm-1 .card-img img{
 	object-fit: cover;
 }
+
 .title{
 	display: block;
 }
+
 /*Footer*/
 
 footer ul li{
@@ -188,7 +195,7 @@ footer ul li i{
 	width:40px;
 	height:40px;
 	font-size: 1.5rem;
-		border-radius: 50%;
+	border-radius: 50%;
 	background-color: white;
 	text-align: center;
 	padding: 25% 0;
@@ -197,6 +204,7 @@ footer ul li i{
 footer{
 	background-color: #FFFFFF;
 }
+
 footer p{
 	padding: 5%;
 }
@@ -206,7 +214,7 @@ footer p{
 @media (max-width: 767px) and (max-width: 991px) {
 	cards .container .row .card sm-1{
 		display:block;
-		flex-direction: column;
+			flex-direction: column;
 		max-width: 100%;
 	}
 }
