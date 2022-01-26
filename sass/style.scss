@@ -5,20 +5,15 @@ $font-text: "droid-serif", serif;
 $font-header: 'Montserrat', sans-serif;
 
 /*Body*/
-body{
+body {
 	color:black;
+	margin: 0;
 }
 	
 .section-title {
 	font-family: $font-header;
 	font-size: 40px;
 	margin: 14px 0;
-}
-
-.section-sublitle {
-	font-family: $font-header;
-	font-size: 18px;
-	font-style: bold;
 }
 
 body p {
@@ -35,39 +30,40 @@ header {
 	font-family: 'Montserrat';
 }
 
-.navbar .nav .nav-item .nav-link{
+.navbar .nav .nav-item .nav-link {
 	text-decoration: none;
 }
 
-header .container .navbar{
+header .container .navbar {
 	display: flex;
 	justify-content: space-between;
 }
 
-header .container .navbar .inner{
+header .container .navbar .inner {
 	width: 100%;
 	text-align: left;
 	margin: 16px 0;
 }
 
-header .container .navbar .nav{
+header .container .navbar .nav {
 	list-style-type: none;
 	width: 100%;
 	display:flex;
 	justify-content: end;
 }
-header .container .navbar .nav-item{
+
+header .container .navbar .nav-item {
 	float: right;
 	padding-right: 20px;
 }
 
-header .container h3{
+header .container h3 {
 	font-size: 40px;
 	font-style: italic;
 	margin: 20px 0;
 }
 
-header .container h2{
+header .container h2 {
 	font-size: 80px;
 	margin: 20px 0;
 }
@@ -77,12 +73,12 @@ header .row {
 	color: white;
 }
 
-header .container .row{
+header .container .row {
 	padding: 158px 0;
 	justify-content: center;
 }
 
-header .container .row .btn{
+header .container .row .btn {
 	width: 243px;
 	height: 63px;
 	background-color: #FEE89A;
@@ -96,14 +92,13 @@ header .container .row .btn{
 
 /*Cards*/
 
-.cards{
+.cards {
 	padding: 3% 0;
 }
 
-.cards h5{
+.cards h5 {
 	font-family: $font-header;
 	font-size: 18px;
-	font-style: bold;
 }
 
 .card {
@@ -119,7 +114,7 @@ header .container .row .btn{
 	object-fit: cover;
 }
 	
-.cards .container{
+.cards .container {
 	padding: 5rem;
 }
 
@@ -130,12 +125,12 @@ header .container .row .btn{
 	padding: 6% 0;
 }
 
-.services .container .row{
+.services .container .row {
 	text-align: center;
 	display: inline;
 }
 
-.services .col-4 i{
+.services .col-4 i {
 	width:50px;
 	height:50px;
 	font-size: 1.5rem;
@@ -147,27 +142,18 @@ header .container .row .btn{
 	color:#FEE89A
 }
 
-/*.services .col-4 a{
-	font-size: 0;
-	color:#FEE89A;
-}*/
-
-.col-4{
+.col-4 {
 	width: 33.3333%;
 	display: inline-block;
 }
 
 /*Cards*/
 
-.cards .container .row h4,p{
+.cards .container .row h4,p {
 	text-align: center;
 }
 
-.col-4{
-	width: 33.3333%;
-}
-
-.cards .container .row{
+.cards .container .row {
 	justify-content: space-between;
 }
 
@@ -175,23 +161,23 @@ header .container .row .btn{
 	background-color: #F7F7F7;
 }
 
-.cards .container .row .card sm-1 .card-img img{
+.cards .container .row .card sm-1 .card-img img {
 	object-fit: cover;
 }
 
-.title{
+.title {
 	display: block;
 }
 
 /*Footer*/
 
-footer ul li{
+footer ul li {
 	display: inline-flex;
 	list-style-type:none;
 	font-size:0;
 }
 
-footer ul li i{
+footer ul li i {
 	width:40px;
 	height:40px;
 	font-size: 1.5rem;
@@ -201,11 +187,11 @@ footer ul li i{
 	padding: 25% 0;
 }
 
-footer{
+footer {
 	background-color: #FFFFFF;
 }
 
-footer p{
+footer p {
 	padding: 5%;
 }
 
@@ -214,7 +200,7 @@ footer p{
 @media (max-width: 767px) and (max-width: 991px) {
 	cards .container .row .card sm-1{
 		display:block;
-			flex-direction: column;
+		flex-direction: column;
 		max-width: 100%;
 	}
 }
