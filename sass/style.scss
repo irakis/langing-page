@@ -48,7 +48,6 @@ header .container .navbar .inner {
 header .container .navbar .nav {
 	list-style-type: none;
 	width: 100%;
-	display:flex;
 	justify-content: end;
 }
 
@@ -102,7 +101,6 @@ header .container .row .btn {
 }
 
 .card {
-	width: 30%;
 	margin-top: 3%;
 	justify-content: center;
 	text-align: center;
@@ -130,7 +128,7 @@ header .container .row .btn {
 	display: inline;
 }
 
-.services .col-4 i {
+.services .col-12 i {
 	width:50px;
 	height:50px;
 	font-size: 1.5rem;
@@ -142,8 +140,7 @@ header .container .row .btn {
 	color:#FEE89A
 }
 
-.col-4 {
-	width: 33.3333%;
+.col-12 {
 	display: inline-block;
 }
 
