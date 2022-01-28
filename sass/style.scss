@@ -213,6 +213,13 @@ header .container .row .btn {
 
 /*Footer*/
 
+footer ul {
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 footer ul li {
 	display: inline-flex;
 	list-style-type:none;
@@ -228,6 +235,9 @@ footer ul li i {
 	color: white;
 	text-align: center;
 	padding: 6px;
+}
+.col-4 inline {
+	text-align: center;
 }
 
 footer {
@@ -245,5 +255,8 @@ footer p {
 		display:block;
 		flex-direction: column;
 		max-width: 100%;
+	}
+	col-sm-1 col-md-4 hidden-xs {
+		display: none;
 	}
 }
