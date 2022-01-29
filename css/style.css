@@ -242,7 +242,7 @@ footer p {
 
 /*Media*/
 @media (max-width: 767px) and (max-width: 991px) {
-  cards .container .row .card sm-1 {
+  .cards .container .row .card {
     display: block;
     flex-direction: column;
     max-width: 100%;
@@ -252,7 +252,7 @@ footer p {
     justify-content: space-between;
   }
 
-  footer .container .row .col-sm-1 .col-lg-4 {
+  footer .container .row .col-sm-1.col-lg-4 {
     display: none;
   }
 }
