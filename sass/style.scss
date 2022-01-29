@@ -256,7 +256,10 @@ footer p {
 		flex-direction: column;
 		max-width: 100%;
 	}
-	col-sm-1 col-md-4 hidden-xs {
+	footer .row {
+		justify-content: space-between;
+	}
+	footer .container .row .col-sm-1 .col-lg-4 {
 		display: none;
 	}
 }
